@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B56C35D28572DD0008FBA02 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1B56C35C28572DCF008FBA02 /* README.md */; };
 		2FCF47518CB8307E24540242 /* Pods_IssueTracker15.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3B02D48A1730FB8E3E0AF3 /* Pods_IssueTracker15.framework */; };
 		8D2484962856DD5300CCC07F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2484952856DD5300CCC07F /* AppDelegate.swift */; };
 		8D2484982856DD5300CCC07F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2484972856DD5300CCC07F /* SceneDelegate.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B56C35C28572DCF008FBA02 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4EDBA824CDE476C996C1344C /* Pods-IssueTracker15.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IssueTracker15.release.xcconfig"; path = "Target Support Files/Pods-IssueTracker15/Pods-IssueTracker15.release.xcconfig"; sourceTree = "<group>"; };
 		7C3B02D48A1730FB8E3E0AF3 /* Pods_IssueTracker15.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IssueTracker15.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF778505ABD782B86F6D624 /* Pods-IssueTracker15_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IssueTracker15_1.debug.xcconfig"; path = "Target Support Files/Pods-IssueTracker15_1/Pods-IssueTracker15_1.debug.xcconfig"; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 		8D2484892856DD5300CCC07F = {
 			isa = PBXGroup;
 			children = (
+				1B56C35C28572DCF008FBA02 /* README.md */,
 				8D2484942856DD5300CCC07F /* IssueTracker15 */,
 				8D2484932856DD5300CCC07F /* Products */,
 				F5F8BDEAA1EF0392D210B084 /* Pods */,
@@ -157,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B56C35D28572DD0008FBA02 /* README.md in Resources */,
 				8D24849F2856DD5400CCC07F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,7 +345,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N6KUR9465F;
+				DEVELOPMENT_TEAM = B3PWYBKFUK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IssueTracker15/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -369,7 +373,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N6KUR9465F;
+				DEVELOPMENT_TEAM = B3PWYBKFUK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IssueTracker15/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
