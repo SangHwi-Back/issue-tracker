@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8D2484C328580D5F00CCC07F"
+               BuildableName = "RegularExpressionChecker.xctest"
+               BlueprintName = "RegularExpressionCheckerUnitTest"
+               ReferencedContainer = "container:IssueTracker15.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
