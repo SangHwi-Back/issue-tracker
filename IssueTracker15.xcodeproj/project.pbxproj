@@ -13,7 +13,22 @@
 		8D2484982856DD5300CCC07F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2484972856DD5300CCC07F /* SceneDelegate.swift */; };
 		8D24849A2856DD5300CCC07F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2484992856DD5300CCC07F /* ViewController.swift */; };
 		8D24849F2856DD5400CCC07F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D24849E2856DD5400CCC07F /* Assets.xcassets */; };
+		8D2484C728580D5F00CCC07F /* RegularExpressionCheckerUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2484C628580D5F00CCC07F /* RegularExpressionCheckerUnitTest.swift */; };
+		8D2484D028580F0800CCC07F /* IDChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2484CF28580F0800CCC07F /* IDChecker.swift */; };
+		8D2484D228580F0E00CCC07F /* PasswordChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2484D128580F0E00CCC07F /* PasswordChecker.swift */; };
+		8D2484D328580FF400CCC07F /* IDChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2484CF28580F0800CCC07F /* IDChecker.swift */; };
+		8D2484D428580FF600CCC07F /* PasswordChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2484D128580F0E00CCC07F /* PasswordChecker.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D2484C828580D5F00CCC07F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D24848A2856DD5300CCC07F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D2484912856DD5300CCC07F;
+			remoteInfo = IssueTracker15;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1B56C35C28572DCF008FBA02 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -26,6 +41,10 @@
 		8D2484992856DD5300CCC07F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D24849E2856DD5400CCC07F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D2484A32856DD5400CCC07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D2484C428580D5F00CCC07F /* RegularExpressionCheckerUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegularExpressionCheckerUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2484C628580D5F00CCC07F /* RegularExpressionCheckerUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpressionCheckerUnitTest.swift; sourceTree = "<group>"; };
+		8D2484CF28580F0800CCC07F /* IDChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDChecker.swift; sourceTree = "<group>"; };
+		8D2484D128580F0E00CCC07F /* PasswordChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChecker.swift; sourceTree = "<group>"; };
 		F79B43073D6BACBC40E4B2EC /* Pods-IssueTracker15.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IssueTracker15.debug.xcconfig"; path = "Target Support Files/Pods-IssueTracker15/Pods-IssueTracker15.debug.xcconfig"; sourceTree = "<group>"; };
 		FFE3DADA8F9CABE6D84E5842 /* Pods-IssueTracker15_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IssueTracker15_1.release.xcconfig"; path = "Target Support Files/Pods-IssueTracker15_1/Pods-IssueTracker15_1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,6 +58,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8D2484C128580D5F00CCC07F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -47,6 +73,7 @@
 			children = (
 				1B56C35C28572DCF008FBA02 /* README.md */,
 				8D2484942856DD5300CCC07F /* IssueTracker15 */,
+				8D2484C528580D5F00CCC07F /* RegularExpressionCheckerUnitTest */,
 				8D2484932856DD5300CCC07F /* Products */,
 				F5F8BDEAA1EF0392D210B084 /* Pods */,
 				E77202C92A2B7C2CE95E5970 /* Frameworks */,
@@ -57,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				8D2484922856DD5300CCC07F /* IssueTracker15.app */,
+				8D2484C428580D5F00CCC07F /* RegularExpressionCheckerUnitTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				8D2484992856DD5300CCC07F /* ViewController.swift */,
+				8D2484CE28580EFB00CCC07F /* RegularExpressionChecker */,
 				8D2484A92856DDA900CCC07F /* SupportingFiles */,
 				8D2484A32856DD5400CCC07F /* Info.plist */,
 			);
@@ -79,6 +108,23 @@
 				8D24849E2856DD5400CCC07F /* Assets.xcassets */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8D2484C528580D5F00CCC07F /* RegularExpressionCheckerUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				8D2484C628580D5F00CCC07F /* RegularExpressionCheckerUnitTest.swift */,
+			);
+			path = RegularExpressionCheckerUnitTest;
+			sourceTree = "<group>";
+		};
+		8D2484CE28580EFB00CCC07F /* RegularExpressionChecker */ = {
+			isa = PBXGroup;
+			children = (
+				8D2484CF28580F0800CCC07F /* IDChecker.swift */,
+				8D2484D128580F0E00CCC07F /* PasswordChecker.swift */,
+			);
+			path = RegularExpressionChecker;
 			sourceTree = "<group>";
 		};
 		E77202C92A2B7C2CE95E5970 /* Frameworks */ = {
@@ -122,6 +168,24 @@
 			productReference = 8D2484922856DD5300CCC07F /* IssueTracker15.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8D2484C328580D5F00CCC07F /* RegularExpressionCheckerUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D2484CC28580D5F00CCC07F /* Build configuration list for PBXNativeTarget "RegularExpressionCheckerUnitTest" */;
+			buildPhases = (
+				8D2484C028580D5F00CCC07F /* Sources */,
+				8D2484C128580D5F00CCC07F /* Frameworks */,
+				8D2484C228580D5F00CCC07F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D2484C928580D5F00CCC07F /* PBXTargetDependency */,
+			);
+			name = RegularExpressionCheckerUnitTest;
+			productName = RegularExpressionChecker;
+			productReference = 8D2484C428580D5F00CCC07F /* RegularExpressionCheckerUnitTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -134,6 +198,10 @@
 				TargetAttributes = {
 					8D2484912856DD5300CCC07F = {
 						CreatedOnToolsVersion = 13.4;
+					};
+					8D2484C328580D5F00CCC07F = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 8D2484912856DD5300CCC07F;
 					};
 				};
 			};
@@ -151,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				8D2484912856DD5300CCC07F /* IssueTracker15 */,
+				8D2484C328580D5F00CCC07F /* RegularExpressionCheckerUnitTest */,
 			);
 		};
 /* End PBXProject section */
@@ -162,6 +231,13 @@
 			files = (
 				1B56C35D28572DD0008FBA02 /* README.md in Resources */,
 				8D24849F2856DD5400CCC07F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2484C228580D5F00CCC07F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,13 +290,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D2484D228580F0E00CCC07F /* PasswordChecker.swift in Sources */,
 				8D24849A2856DD5300CCC07F /* ViewController.swift in Sources */,
 				8D2484962856DD5300CCC07F /* AppDelegate.swift in Sources */,
 				8D2484982856DD5300CCC07F /* SceneDelegate.swift in Sources */,
+				8D2484D028580F0800CCC07F /* IDChecker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2484C028580D5F00CCC07F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2484D428580FF600CCC07F /* PasswordChecker.swift in Sources */,
+				8D2484D328580FF400CCC07F /* IDChecker.swift in Sources */,
+				8D2484C728580D5F00CCC07F /* RegularExpressionCheckerUnitTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D2484C928580D5F00CCC07F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D2484912856DD5300CCC07F /* IssueTracker15 */;
+			targetProxy = 8D2484C828580D5F00CCC07F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8D2484A42856DD5400CCC07F /* Debug */ = {
@@ -393,6 +489,42 @@
 			};
 			name = Release;
 		};
+		8D2484CA28580D5F00CCC07F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6KUR9465F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeobJin.RegularExpressionChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IssueTracker15.app/IssueTracker15";
+			};
+			name = Debug;
+		};
+		8D2484CB28580D5F00CCC07F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6KUR9465F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeobJin.RegularExpressionChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IssueTracker15.app/IssueTracker15";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -410,6 +542,15 @@
 			buildConfigurations = (
 				8D2484A72856DD5400CCC07F /* Debug */,
 				8D2484A82856DD5400CCC07F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D2484CC28580D5F00CCC07F /* Build configuration list for PBXNativeTarget "RegularExpressionCheckerUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2484CA28580D5F00CCC07F /* Debug */,
+				8D2484CB28580D5F00CCC07F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
